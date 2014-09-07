@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar
+END
+Absolute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/Absolute.cs
+END
+PlainSigmoid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/PlainSigmoid.cs
+END
+StepFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/StepFunction.cs
+END
+AbsoluteRoot.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/AbsoluteRoot.cs
+END
+SteepenedSigmoidApproximation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/SteepenedSigmoidApproximation.cs
+END
+InverseAbsoluteSigmoid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/InverseAbsoluteSigmoid.cs
+END
+ReducedSigmoid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/ReducedSigmoid.cs
+END
+SteepenedSigmoid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/SteepenedSigmoid.cs
+END
+Gaussian.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Unipolar/Gaussian.cs
+END

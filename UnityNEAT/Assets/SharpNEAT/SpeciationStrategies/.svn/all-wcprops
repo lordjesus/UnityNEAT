@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies
+END
+ParallelKMeansClusteringStrategy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/sharpneat/!svn/ver/51/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies/ParallelKMeansClusteringStrategy.cs
+END
+SpeciationUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/sharpneat/!svn/ver/51/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies/SpeciationUtils.cs
+END
+GenomeDistancePair.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies/GenomeDistancePair.cs
+END
+KMeansClusteringStrategy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/sharpneat/!svn/ver/51/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies/KMeansClusteringStrategy.cs
+END
+RandomClusteringStrategy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/sharpneat/!svn/ver/51/trunk/SharpNeatV2/src/SharpNeatLib/SpeciationStrategies/RandomClusteringStrategy.cs
+END

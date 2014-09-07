@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/sharpneat/!svn/ver/21/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions
+END
+NullFn.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/NullFn.cs
+END
+ActivationFunctionInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/sharpneat/!svn/ver/21/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/ActivationFunctionInfo.cs
+END

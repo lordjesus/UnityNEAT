@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/sharpneat/!svn/ver/28/trunk/SharpNeatV2/src/SharpNeatLib/Utility
+END
+ZigguratGaussianSampler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/sharpneat/!svn/ver/55/trunk/SharpNeatV2/src/SharpNeatLib/Utility/ZigguratGaussianSampler.cs
+END
+Utilities.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/Utilities.cs
+END
+FrequencyDistributionData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/sharpneat/!svn/ver/46/trunk/SharpNeatV2/src/SharpNeatLib/Utility/FrequencyDistributionData.cs
+END
+FastRandom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/sharpneat/!svn/ver/45/trunk/SharpNeatV2/src/SharpNeatLib/Utility/FastRandom.cs
+END
+CircularBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/CircularBuffer.cs
+END
+KeyedCircularBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/KeyedCircularBuffer.cs
+END
+ParallelSort.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/ParallelSort.cs
+END
+DoubleCircularBufferWithStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/DoubleCircularBufferWithStats.cs
+END
+RouletteWheelLayout.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/28/trunk/SharpNeatV2/src/SharpNeatLib/Utility/RouletteWheelLayout.cs
+END
+BoxMullerGaussianSampler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/sharpneat/!svn/ver/48/trunk/SharpNeatV2/src/SharpNeatLib/Utility/BoxMullerGaussianSampler.cs
+END
+RouletteWheel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/sharpneat/!svn/ver/28/trunk/SharpNeatV2/src/SharpNeatLib/Utility/RouletteWheel.cs
+END
+UInt32IdGenerator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/sharpneat/!svn/ver/60/trunk/SharpNeatV2/src/SharpNeatLib/Utility/UInt32IdGenerator.cs
+END
+XmlIoUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/sharpneat/!svn/ver/22/trunk/SharpNeatV2/src/SharpNeatLib/Utility/XmlIoUtils.cs
+END
+Point2DDouble.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Utility/Point2DDouble.cs
+END

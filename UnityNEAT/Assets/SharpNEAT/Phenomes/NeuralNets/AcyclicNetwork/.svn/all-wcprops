@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/sharpneat/!svn/ver/34/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/AcyclicNetwork
+END
+FastAcyclicNetwork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/AcyclicNetwork/FastAcyclicNetwork.cs
+END
+LayerInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/AcyclicNetwork/LayerInfo.cs
+END

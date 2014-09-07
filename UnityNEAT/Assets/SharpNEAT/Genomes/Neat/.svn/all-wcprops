@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/sharpneat/!svn/ver/28/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat
+END
+NeatGenome.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeatGenome.cs
+END
+ConnectionGeneComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionGeneComparer.cs
+END
+ConnectionMutationInfoList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionMutationInfoList.cs
+END
+ConnectionGeneList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionGeneList.cs
+END
+NeatGenomeXmlIO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/sharpneat/!svn/ver/60/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeatGenomeXmlIO.cs
+END
+AddedNeuronGeneStruct.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/AddedNeuronGeneStruct.cs
+END
+ConnectionMutationInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionMutationInfo.cs
+END
+ConnectionPerturbanceType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionPerturbanceType.cs
+END
+CorrelationStatistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/CorrelationStatistics.cs
+END
+ConnectionGene.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionGene.cs
+END
+CorrelationItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/CorrelationItem.cs
+END
+NeuronGeneList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeuronGeneList.cs
+END
+NeatGenomeStats.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeatGenomeStats.cs
+END
+ConnectionGeneListBuilder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/sharpneat/!svn/ver/34/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionGeneListBuilder.cs
+END
+CorrelationItemType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/CorrelationItemType.cs
+END
+CorrelationResults.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/CorrelationResults.cs
+END
+NeuronGene.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/sharpneat/!svn/ver/26/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeuronGene.cs
+END
+NeatGenomeParameters.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeatGenomeParameters.cs
+END
+ConnectionSelectionType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/ConnectionSelectionType.cs
+END
+NeatGenomeFactory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Genomes/Neat/NeatGenomeFactory.cs
+END

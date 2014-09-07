@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/29/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork
+END
+FastConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/sharpneat/!svn/ver/29/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork/FastConnection.cs
+END
+FastCyclicNetwork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork/FastCyclicNetwork.cs
+END
+FastRelaxingCyclicNetwork.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/sharpneat/!svn/ver/29/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets/FastCyclicNetwork/FastRelaxingCyclicNetwork.cs
+END

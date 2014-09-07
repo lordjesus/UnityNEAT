@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Bipolar
+END
+Sine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Bipolar/Sine.cs
+END
+BipolarGaussian.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Bipolar/BipolarGaussian.cs
+END
+BipolarSigmoid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Bipolar/BipolarSigmoid.cs
+END
+Linear.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/ActivationFunctions/Bipolar/Linear.cs
+END

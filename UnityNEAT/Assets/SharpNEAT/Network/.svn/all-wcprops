@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/sharpneat/!svn/ver/22/trunk/SharpNeatV2/src/SharpNeatLib/Network
+END
+INetworkDefinition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Network/INetworkDefinition.cs
+END
+NodeConnectivityData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Network/NodeConnectivityData.cs
+END
+IActivationFunction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/47/trunk/SharpNeatV2/src/SharpNeatLib/Network/IActivationFunction.cs
+END
+CyclicNetworkTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Network/CyclicNetworkTest.cs
+END
+NodeList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/NodeList.cs
+END
+INetworkConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/INetworkConnection.cs
+END
+NetworkConnectivityData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkConnectivityData.cs
+END
+NodeType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/NodeType.cs
+END
+ConnectionEndpointsStruct.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/ConnectionEndpointsStruct.cs
+END
+INodeList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/INodeList.cs
+END
+NetworkDepthInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkDepthInfo.cs
+END
+ConnectionList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/ConnectionList.cs
+END
+NetworkNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkNode.cs
+END
+DefaultActivationFunctionLibrary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Network/DefaultActivationFunctionLibrary.cs
+END
+NetworkDefinition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkDefinition.cs
+END
+NetworkXmlIO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sharpneat/!svn/ver/22/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkXmlIO.cs
+END
+IConnectionList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/IConnectionList.cs
+END
+IActivationFunctionLibrary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/IActivationFunctionLibrary.cs
+END
+INetworkNode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sharpneat/!svn/ver/18/trunk/SharpNeatV2/src/SharpNeatLib/Network/INetworkNode.cs
+END
+NetworkConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Network/NetworkConnection.cs
+END
+CyclicNetworkDepthAnalysis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Network/CyclicNetworkDepthAnalysis.cs
+END
+AcyclicNetworkDepthAnalysis.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/sharpneat/!svn/ver/42/trunk/SharpNeatV2/src/SharpNeatLib/Network/AcyclicNetworkDepthAnalysis.cs
+END

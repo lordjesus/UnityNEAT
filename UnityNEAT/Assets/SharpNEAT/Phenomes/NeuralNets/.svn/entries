@@ -1,0 +1,37 @@
+10
+
+dir
+31
+https://sharpneat.svn.sourceforge.net/svnroot/sharpneat/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/NeuralNets
+https://sharpneat.svn.sourceforge.net/svnroot/sharpneat
+
+
+
+2011-07-16T20:48:22.258749Z
+31
+colgreen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d616bda0-aa41-0410-a191-f7deb02dfccb
+
+CyclicNetwork
+dir
+
+AcyclicNetwork
+dir
+
+FastCyclicNetwork
+dir
+

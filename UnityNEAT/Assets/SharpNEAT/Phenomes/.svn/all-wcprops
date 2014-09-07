@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/sharpneat/!svn/ver/31/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes
+END
+SignalArray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/sharpneat/!svn/ver/29/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/SignalArray.cs
+END
+IBlackBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/IBlackBox.cs
+END
+ISignalArray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/sharpneat/!svn/ver/12/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/ISignalArray.cs
+END
+MappingSignalArray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/sharpneat/!svn/ver/35/trunk/SharpNeatV2/src/SharpNeatLib/Phenomes/MappingSignalArray.cs
+END
