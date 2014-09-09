@@ -46,6 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BallExperiment\BallController.cs" />
+     <Compile Include="Assets\CarExperiment\CarController.cs" />
+     <Compile Include="Assets\CarExperiment\CarEvaluator.cs" />
+     <Compile Include="Assets\CarExperiment\CarExperiment.cs" />
+     <Compile Include="Assets\CarExperiment\GoalPiece.cs" />
+     <Compile Include="Assets\CarExperiment\RoadPiece.cs" />
      <Compile Include="Assets\SharpNEAT\Core\AuxFitnessInfo.cs" />
      <Compile Include="Assets\SharpNEAT\Core\CoordinateVector.cs" />
      <Compile Include="Assets\SharpNEAT\Core\EvaluationInfo.cs" />
@@ -192,6 +198,7 @@
      <Compile Include="Assets\SharpNEAT\Utility\Utilities.cs" />
      <Compile Include="Assets\SharpNEAT\Utility\XmlIoUtils.cs" />
      <Compile Include="Assets\SharpNEAT\Utility\ZigguratGaussianSampler.cs" />
+     <None Include="Assets\Resources\phototaxis.config.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
