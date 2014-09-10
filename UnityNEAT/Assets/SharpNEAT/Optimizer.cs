@@ -19,7 +19,7 @@ public class Optimizer : MonoBehaviour {
     bool EARunning;
     string popFileSavePath, champFileSavePath;
 
-    CarExperiment experiment;
+    SimpleExperiment experiment;
     static NeatEvolutionAlgorithm<NeatGenome> _ea;
 
     public GameObject Unit;
@@ -37,9 +37,9 @@ public class Optimizer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Utility.DebugLog = true;
-        experiment = new CarExperiment();
+        experiment = new SimpleExperiment();
         XmlDocument xmlConfig = new XmlDocument();
-        TextAsset textAsset = (TextAsset)Resources.Load("phototaxis.config");
+        TextAsset textAsset = (TextAsset)Resources.Load("experiment.config");
         xmlConfig.LoadXml(textAsset.text);
         experiment.SetOptimizer(this);
 

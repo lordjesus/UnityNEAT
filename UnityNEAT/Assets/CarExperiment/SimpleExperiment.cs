@@ -15,7 +15,7 @@ using SharpNeat.EvolutionAlgorithms.ComplexityRegulation;
 using SharpNEAT.Core;
 using System;
 
-public class CarExperiment : INeatExperiment
+public class SimpleExperiment : INeatExperiment
 {
 
     NeatEvolutionAlgorithmParameters _eaParams;
@@ -170,7 +170,7 @@ public class CarExperiment : INeatExperiment
         NeatEvolutionAlgorithm<NeatGenome> ea = new NeatEvolutionAlgorithm<NeatGenome>(_eaParams, speciationStrategy, complexityRegulationStrategy);
 
         // Create black box evaluator       
-        CarEvaluator evaluator = new CarEvaluator(_optimizer);
+        SimpleEvaluator evaluator = new SimpleEvaluator(_optimizer);
 
         IGenomeDecoder<NeatGenome, IBlackBox> genomeDecoder = CreateGenomeDecoder();
 

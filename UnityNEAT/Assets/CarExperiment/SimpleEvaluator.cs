@@ -4,7 +4,7 @@ using SharpNeat.Core;
 using SharpNeat.Phenomes;
 using System.Collections.Generic;
 
-public class CarEvaluator : IPhenomeEvaluator<IBlackBox> {
+public class SimpleEvaluator : IPhenomeEvaluator<IBlackBox> {
 
 	ulong _evalCount;
     bool _stopConditionSatisfied;
@@ -23,7 +23,7 @@ public class CarEvaluator : IPhenomeEvaluator<IBlackBox> {
         get { return _stopConditionSatisfied; }
     }
 
-    public CarEvaluator(Optimizer se)
+    public SimpleEvaluator(Optimizer se)
     {
         this.optimizer = se;
     }
