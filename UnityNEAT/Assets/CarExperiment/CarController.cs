@@ -131,7 +131,7 @@ public class CarController : UnitController {
 
     public void NewLap()
     {        
-        if (LastPiece > 2)
+        if (LastPiece > 2 && MovingForward)
         {
             Lap++;            
         }
@@ -148,8 +148,8 @@ public class CarController : UnitController {
         {
             piece = 17;
         }
-        float fit = Lap * piece - WallHits;
-
+        float fit = Lap * piece - WallHits * 0.2f;
+      //  print(string.Format("Piece: {0}, Lap: {1}, Fitness: {2}", piece, Lap, fit));
         if (fit > 0)
         {
             return fit;
@@ -164,7 +164,7 @@ public class CarController : UnitController {
             RoadPiece rp = collision.collider.GetComponent<RoadPiece>();
           //  print(collision.collider.tag + " " + rp.PieceNumber);
             
-            if (rp.PieceNumber == CurrentPiece + 1 || (MovingForward && rp.PieceNumber == 0))
+            if ((rp.PieceNumber != LastPiece) && (rp.PieceNumber == CurrentPiece + 1 || (MovingForward && rp.PieceNumber == 0)))
             {
                 LastPiece = CurrentPiece;
                 CurrentPiece = rp.PieceNumber;
@@ -185,9 +185,11 @@ public class CarController : UnitController {
         }
     }
 
+
+
     //void OnGUI()
     //{
-    //    GUI.Button(new Rect(10, 10, 100, 100), "Forward: " + MovingForward + "\nPiece: " + CurrentPiece + "\nLast: " + LastPiece + "\nLap: " + Lap);
+    //    GUI.Button(new Rect(10, 200, 100, 100), "Forward: " + MovingForward + "\nPiece: " + CurrentPiece + "\nLast: " + LastPiece + "\nLap: " + Lap);
     //}
     
 }

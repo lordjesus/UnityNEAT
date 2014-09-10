@@ -36,12 +36,12 @@ namespace SharpNeat.Genomes.Neat
         const double DefaultDisjointExcessGenesRecombineProbability = 0.1;
 
         // High level mutation probabilities
-        //const double DefaultConnectionWeightMutationProbability = 0.988;
+        const double DefaultConnectionWeightMutationProbability = 0.988;
         //const double DefaultAddNodeMutationProbability = 0.001;
         //const double DefaultAddConnectionMutationProbability = 0.01;
         //const double DefaultNodeAuxStateMutationProbability = 0.00;
         //const double DefaultDeleteConnectionMutationProbability = 0.001;
-        const double DefaultConnectionWeightMutationProbability = 0.888;
+        //const double DefaultConnectionWeightMutationProbability = 0.888;
         const double DefaultAddNodeMutationProbability = 0.005;
         const double DefaultAddConnectionMutationProbability = 0.05;
         const double DefaultNodeAuxStateMutationProbability = 0.00;
