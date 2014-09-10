@@ -52,6 +52,7 @@ Example: Car experiment
 
 In the Test scene folder you will find an example experiment with a simple car racing around a race track. In the folder CarExperiment you can find the CarController which calculates the fitness of the individual by measuring which road pieces the car goes through and how many laps it does. The car is penalized for hitting the walls.
 
-<iframe width="640" height="360" src="//www.youtube.com/embed/sHc9u67JPWc?rel=0" frameborder="0" allowfullscreen></iframe>
+A video of the evolution can be seen on [youtube].
 
 [SharpNEAT]:http://sharpneat.sourceforge.net/
+[youtube]:http://youtu.be/sHc9u67JPWc
