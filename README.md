@@ -54,5 +54,20 @@ In the Test scene folder you will find an example experiment with a simple car r
 
 A video of the evolution can be seen on [youtube].
 
+License
+------
+
+This project is released under the same license as SharpNEAT: http://sharpneat.sourceforge.net/licensing.htm
+which is the GNU General Public License, minimum version 3.
+
+You should have received a copy of the GNU General Public License along with SharpNEAT. If not, see:
+<ul>
+<li><a href="http://www.gnu.org/licenses">www.gnu.org/licenses/</a></li>
+<li><a href="http://www.opensource.org/licenses/gpl-license.php" target="_parent" align="left">GNU
+	General Public License (GPL)</a></li>
+</ul>
+
+
+
 [SharpNEAT]:http://sharpneat.sourceforge.net/
 [youtube]:http://youtu.be/sHc9u67JPWc
