@@ -42,6 +42,7 @@ public class CarController : UnitController {
     }
 }
 ```
+
 3. In the folder Resources there is a file called ```experiment.config.xml``` in which you can specify the parameters for the evolution, such as ComplexityRegulationStrategy and PopulationSize. See the original SharpNEAT project for more settings.
 
 4. In the ```Optimizer``` script you can set the number of inputs and outputs in the consts ```NUM_INPUTS``` and ```NUM_OUTPUTS```. The fields ```champFileSavePath``` and ```popFileSavePath``` are the locations where the xml file with the population and best individual is saved. By default it is saved to your local application path, which is in your User folder. The location will be printed in the console when run.
