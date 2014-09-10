@@ -184,6 +184,7 @@
      <Compile Include="Assets\SharpNEAT\SpeciationStrategies\KMeansClusteringStrategy.cs" />
      <Compile Include="Assets\SharpNEAT\SpeciationStrategies\RandomClusteringStrategy.cs" />
      <Compile Include="Assets\SharpNEAT\SpeciationStrategies\SpeciationUtils.cs" />
+     <Compile Include="Assets\SharpNEAT\UnitController.cs" />
      <Compile Include="Assets\SharpNEAT\Utility.cs" />
      <Compile Include="Assets\SharpNEAT\Utility\BoxMullerGaussianSampler.cs" />
      <Compile Include="Assets\SharpNEAT\Utility\CircularBuffer.cs" />

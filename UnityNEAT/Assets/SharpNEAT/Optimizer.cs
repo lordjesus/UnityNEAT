@@ -10,6 +10,9 @@ using System.IO;
 
 public class Optimizer : MonoBehaviour {
 
+    const int NUM_INPUTS = 5;
+    const int NUM_OUTPUTS = 2;
+
     public int Trials;
     public float TrialDuration;
     public float StoppingFitness;
@@ -19,10 +22,17 @@ public class Optimizer : MonoBehaviour {
     CarExperiment experiment;
     static NeatEvolutionAlgorithm<NeatGenome> _ea;
 
-    public GameObject Car;
+    public GameObject Unit;
 
-    Dictionary<IBlackBox, CarController> ControllerMap = new Dictionary<IBlackBox, CarController>();
+    Dictionary<IBlackBox, UnitController> ControllerMap = new Dictionary<IBlackBox, UnitController>();
     private DateTime startTime;
+    private float timeLeft;
+    private float accum;
+    private int frames;
+    private float updateInterval = 12;
+
+    private uint Generation;
+    private double Fitness;
 
 	// Use this for initialization
 	void Start () {
@@ -33,18 +43,37 @@ public class Optimizer : MonoBehaviour {
         xmlConfig.LoadXml(textAsset.text);
         experiment.SetOptimizer(this);
 
-        experiment.Initialize("Car Experiment", xmlConfig.DocumentElement, 5, 2);
+        experiment.Initialize("Car Experiment", xmlConfig.DocumentElement, NUM_INPUTS, NUM_OUTPUTS);
 
         champFileSavePath = Application.persistentDataPath + string.Format("/{0}.champ.xml", "car");
         popFileSavePath = Application.persistentDataPath + string.Format("/{0}.pop.xml", "car");
 
         print(champFileSavePath);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+      //  evaluationStartTime += Time.deltaTime;
+
+        timeLeft -= Time.deltaTime;
+        accum += Time.timeScale / Time.deltaTime;
+        ++frames;
+
+        if (timeLeft <= 0.0)
+        {
+            var fps = accum / frames;
+            timeLeft = updateInterval;
+            accum = 0.0f;
+            frames = 0;
+            //   print("FPS: " + fps);
+            if (fps < 10)
+            {
+                Time.timeScale = Time.timeScale - 1;
+                print("Lowering time scale to " + Time.timeScale);
+            }
+        }
+    }
 
     public void StartEA()
     {        
@@ -68,8 +97,10 @@ public class Optimizer : MonoBehaviour {
     void ea_UpdateEvent(object sender, EventArgs e)
     {
         Utility.Log(string.Format("gen={0:N0} bestFitness={1:N6}",
-            _ea.CurrentGeneration, _ea.Statistics._maxFitness));      
+            _ea.CurrentGeneration, _ea.Statistics._maxFitness));
 
+        Fitness = _ea.Statistics._maxFitness;
+        Generation = _ea.CurrentGeneration;
       
 
     //    Utility.Log(string.Format("Moving average: {0}, N: {1}", _ea.Statistics._bestFitnessMA.Mean, _ea.Statistics._bestFitnessMA.Length));
@@ -123,8 +154,8 @@ public class Optimizer : MonoBehaviour {
 
     public void Evaluate(IBlackBox box)
     {
-        GameObject obj = Instantiate(Car, Car.transform.position, Car.transform.rotation) as GameObject;
-        CarController controller = obj.GetComponent<CarController>();
+        GameObject obj = Instantiate(Unit, Unit.transform.position, Unit.transform.rotation) as GameObject;
+        UnitController controller = obj.GetComponent<UnitController>();
 
         ControllerMap.Add(box, controller);
 
@@ -133,7 +164,7 @@ public class Optimizer : MonoBehaviour {
 
     public void StopEvaluation(IBlackBox box)
     {
-        CarController ct = ControllerMap[box];
+        UnitController ct = ControllerMap[box];
 
         Destroy(ct.gameObject);
     }
@@ -166,8 +197,8 @@ public class Optimizer : MonoBehaviour {
         // Decode the genome into a phenome (neural network).
         var phenome = genomeDecoder.Decode(genome);
 
-        GameObject obj = Instantiate(Car, Car.transform.position, Car.transform.rotation) as GameObject;
-        CarController controller = obj.GetComponent<CarController>();
+        GameObject obj = Instantiate(Unit, Unit.transform.position, Unit.transform.rotation) as GameObject;
+        UnitController controller = obj.GetComponent<UnitController>();
 
         ControllerMap.Add(phenome, controller);
 
@@ -197,5 +228,7 @@ public class Optimizer : MonoBehaviour {
         {
             RunBest();
         }
+
+        GUI.Button(new Rect(10, Screen.height - 70, 100, 60), string.Format("Generation: {0}\nFitness: {1:0.00}", Generation, Fitness));
     }
 }

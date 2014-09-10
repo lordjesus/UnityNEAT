@@ -2,7 +2,7 @@
 using System.Collections;
 using SharpNeat.Phenomes;
 
-public class CarController : MonoBehaviour {
+public class CarController : UnitController {
 
     public float Speed = 5f;
     public float TurnSpeed = 180f;
@@ -111,19 +111,19 @@ public class CarController : MonoBehaviour {
             var gas = (float)outputArr[1] * 2 - 1;
 
             var moveDist = gas * Speed * Time.deltaTime;
-            var turnAngle = steer * TurnSpeed * Time.deltaTime; // * gas;
+            var turnAngle = steer * TurnSpeed * Time.deltaTime * gas;
 
             transform.Rotate(new Vector3(0, turnAngle, 0));
             transform.Translate(Vector3.forward * moveDist);
         }
     }
 
-    public void Stop()
+    public override void Stop()
     {
         this.IsRunning = false;
     }
 
-    public void Activate(IBlackBox box)
+    public override void Activate(IBlackBox box)
     {
         this.box = box;
         this.IsRunning = true;
@@ -137,7 +137,7 @@ public class CarController : MonoBehaviour {
         }
     }
 
-    public float GetFitness()
+    public override float GetFitness()
     {
         if (Lap == 1 && CurrentPiece == 0)
         {
@@ -189,4 +189,5 @@ public class CarController : MonoBehaviour {
     //{
     //    GUI.Button(new Rect(10, 10, 100, 100), "Forward: " + MovingForward + "\nPiece: " + CurrentPiece + "\nLast: " + LastPiece + "\nLap: " + Lap);
     //}
+    
 }
