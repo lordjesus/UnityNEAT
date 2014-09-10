@@ -47,4 +47,11 @@ public class CarController : UnitController {
 
 4. In the ```Optimizer``` script you can set the number of inputs and outputs in the consts ```NUM_INPUTS``` and ```NUM_OUTPUTS```. The fields ```champFileSavePath``` and ```popFileSavePath``` are the locations where the xml file with the population and best individual is saved. By default it is saved to your local application path, which is in your User folder. The location will be printed in the console when run.
 
+Example: Car experiment
+------
+
+In the Test scene folder you will find an example experiment with a simple car racing around a race track. In the folder CarExperiment you can find the CarController which calculates the fitness of the individual by measuring which road pieces the car goes through and how many laps it does. The car is penalized for hitting the walls.
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/sHc9u67JPWc?rel=0" frameborder="0" allowfullscreen></iframe>
+
 [SharpNEAT]:http://sharpneat.sourceforge.net/
