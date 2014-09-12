@@ -1,7 +1,7 @@
 UnityNEAT
 =========
 
-UnityNEAT is a port of [SharpNEAT] from pure C# 4.0 to Unity 4.x (using Mono 2.6), and is integrated to work with Unity scenes for evaluation.
+UnityNEAT is a port of [SharpNEAT] from pure C# 4.0 to Unity 4.x (using Mono 2.6), and is integrated to work with Unity scenes for evaluation. UnityNEAT is created by Daniel Jallov as part of his [master's thesis] at the [Center for Computer Games Research] at the IT University in Copenhagen.
 
 All the NEAT code is pure SharpNEAT, but is running in a single thread through Coroutines instead of using Parallel.For as in regular SharpNEAT.
 
@@ -70,4 +70,6 @@ You should have received a copy of the GNU General Public License along with Sha
 
 
 [SharpNEAT]:http://sharpneat.sourceforge.net/
+[Center for Computer Games Research]:http://game.itu.dk/index.php/About
+[master's thesis]:http://jallov.com/thesis
 [youtube]:http://youtu.be/sHc9u67JPWc
