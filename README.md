@@ -52,6 +52,8 @@ Example: Car experiment
 
 In the Test scene folder you will find an example experiment with a simple car racing around a race track. In the folder CarExperiment you can find the CarController which calculates the fitness of the individual by measuring which road pieces the car goes through and how many laps it does. The car is penalized for hitting the walls.
 
+To set up the Car experiment properly in a new project, you need to set up the physics layers in your project. To do so, go to Edit --> Project Settings --> Tags and layers and add a new layer and name it Car. Then go into Edit --> Project Settings --> Physics and remove the tick from the Layer Collision Matrix for Car-Car (should be the bottom most one). Then, go to CarExperiment folder and select the jeep prefab and set its layer to Car.
+
 A video of the evolution can be seen on [youtube].
 
 License
