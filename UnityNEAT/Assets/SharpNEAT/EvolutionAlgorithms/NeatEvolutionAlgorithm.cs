@@ -761,6 +761,10 @@ namespace SharpNeat.EvolutionAlgorithms
 
             for(int i=0; i<specieCount; i++)
             {
+                // Shuffle the genomes; this ensures that genomes with equal fitness are randomly distributed amongst themselves, and therefore
+                // that the top N genomes chosen for selection and elitism isn't biased to an arbitrary set that happen to be at the front of a genome list.
+                // N.B. In github/colgreen/SharpNEAT this is done using SortUtils.SortUnstable() for improved performance.
+                Utilities.Shuffle(_specieList[i].GenomeList, _rng);
                 _specieList[i].GenomeList.Sort(GenomeFitnessComparer<TGenome>.Singleton);
                 minSize = Math.Min(minSize, _specieList[i].GenomeList.Count);
                 maxSize = Math.Max(maxSize, _specieList[i].GenomeList.Count);
