@@ -15,6 +15,6 @@ public class BallController : MonoBehaviour {
 	void FixedUpdate () {
 
 
-        rigidbody.AddForce(10 * Time.deltaTime, 0, 0);
+        GetComponent<Rigidbody>().AddForce(10 * Time.deltaTime, 0, 0);
 	}
 }
