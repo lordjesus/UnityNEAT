@@ -1,4 +1,4 @@
-![Imgur](http://i.imgur.com/ZQqvwKf.png)
+![Imgur](http://i.imgur.com/ZQqvwKf.png?1)
 
 UnityNEAT
 =========
