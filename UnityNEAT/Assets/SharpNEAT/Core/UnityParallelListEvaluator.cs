@@ -81,12 +81,12 @@ namespace SharpNEAT.Core
                         //    fitnessDict.Add(phenome, new FitnessInfo[_optimizer.Trials]);
                         //}
                         Coroutiner.StartCoroutine(_phenomeEvaluator.Evaluate(phenome));
+                        curr_group_size++;
                         if(_optimizer.Group_Eval){
                             if(curr_group_size%_optimizer.Group_Size == 0){
                                 yield return new WaitForSeconds(_optimizer.TrialDuration);
                             }
                         }
-                        curr_group_size++;
                     }
                 }
 
