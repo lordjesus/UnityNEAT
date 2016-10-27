@@ -46,7 +46,7 @@ public class Optimizer : MonoBehaviour {
         experiment.Initialize("Car Experiment", xmlConfig.DocumentElement, NUM_INPUTS, NUM_OUTPUTS);
 
         champFileSavePath = Application.persistentDataPath + string.Format("/{0}.champ.xml", "car");
-        popFileSavePath = Application.persistentDataPath + string.Format("/{0}.pop.xml", "car");
+        popFileSavePath = Application.persistentDataPath + string.Format("/{0}.pop.xml", "car");       
 
         print(champFileSavePath);
 	}
