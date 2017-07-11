@@ -45,7 +45,7 @@ public class CarController : UnitController {
         //    transform.Translate(Vector3.forward * moveDist);
         //}
 
-        // Five sensors: Front, left front, left, right front, right
+        // Five sensors: Front, left front, left, right front, right 
 
         if (IsRunning)
         {
