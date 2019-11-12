@@ -16,6 +16,8 @@ public class Optimizer : MonoBehaviour {
     public int Trials;
     public float TrialDuration;
     public float StoppingFitness;
+    public bool Group_Eval = false;
+    public int Group_Size = 0;
     bool EARunning;
     string popFileSavePath, champFileSavePath;
 

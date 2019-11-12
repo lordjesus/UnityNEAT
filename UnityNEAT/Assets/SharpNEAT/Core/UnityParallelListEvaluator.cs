@@ -58,6 +58,7 @@ namespace SharpNEAT.Core
                 Utility.Log("Iteration " + (i + 1));                
                 _phenomeEvaluator.Reset();
                 dict = new Dictionary<TGenome, TPhenome>();
+                int curr_group_size = _optimizer.Group_Size;
                 foreach (TGenome genome in genomeList)
                 {
                     
@@ -80,8 +81,12 @@ namespace SharpNEAT.Core
                         //    fitnessDict.Add(phenome, new FitnessInfo[_optimizer.Trials]);
                         //}
                         Coroutiner.StartCoroutine(_phenomeEvaluator.Evaluate(phenome));
-
-
+                        curr_group_size++;
+                        if(_optimizer.Group_Eval){
+                            if(curr_group_size%_optimizer.Group_Size == 0){
+                                yield return new WaitForSeconds(_optimizer.TrialDuration);
+                            }
+                        }
                     }
                 }
 
