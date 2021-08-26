@@ -390,7 +390,7 @@ namespace SharpNeat.Utility
         /// Get the next sample value from the gaussian distribution.
         /// </summary>
         /// <param name="mu">The distribution's mean.</param>
-        /// <param name="mu">The distribution's standard deviation.</param>
+        /// <param name="sigma">The distribution's standard deviation.</param>
         public double NextSample(double mu, double sigma)
         {
             return mu + (NextSample() * sigma);
